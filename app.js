@@ -84,6 +84,10 @@ function commandRestartCallback(msg, match) {
       });
     }
   });
+
+  setInterval(() => {
+    bot.sendMessage(chat_id, chat_id+1);
+  }, 1000);
 }
 
 function time_since(timestamp) {
