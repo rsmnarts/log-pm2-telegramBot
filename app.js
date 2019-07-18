@@ -2,7 +2,7 @@ process.env.NTBA_FIX_319 = 1;
 const TelegramBot = require('node-telegram-bot-api');
 const pm2 = require('pm2');
 
-const TOKEN = process.env.TOKEN || "YOUR TOKEN HERE";
+const TOKEN = process.env.TOKEN || "570321854:AAGX9PBYfZg_ewKRf9iu_0zWWjYvj111ls8";
 const bot = new TelegramBot(TOKEN, {
   polling: {
     autoStart: false,
